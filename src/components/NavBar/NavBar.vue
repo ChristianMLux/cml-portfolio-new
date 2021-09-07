@@ -25,6 +25,16 @@
           <span class="link-text">Contact</span>
         </router-link>
       </li>
+      <li class="nav-item gitHub">
+        <a
+          href="https://github.com/ChristianMLux"
+          class="nav-link"
+          target="_blank"
+        >
+          <img src="./GitHub-Mark-Light-64px.png" />
+          <span class="link-text">GitHub</span>
+        </a>
+      </li>
     </ul>
   </nav>
 </template>
@@ -49,14 +59,14 @@ export default {
 
 <style lang="scss">
 .navbar {
-  width: 5rem;
+  width: 4rem;
   height: 100vh;
   position: fixed;
   background-color: var(--dark);
   transition: 200ms ease-in-out;
 }
 .navbar:hover {
-  width: 16rem;
+  width: 14rem;
   .link-text {
     display: block;
     justify-content: baseline;
@@ -72,21 +82,28 @@ export default {
   padding: 0;
   height: 100%;
 }
+.nav-item:last-child {
+  margin-top: auto;
+}
 .nav-item {
   width: 100%;
 }
 .nav-link {
   display: flex;
   align-items: center;
-  height: 5rem;
+  height: 4rem;
   text-decoration: none;
   color: var(--bright);
   svg {
-    min-width: 2rem;
+    min-width: 1rem;
     fill: var(--primary-color);
     transition: 0.5s ease-in-out;
-    font-size: 1.5rem;
-    margin: 0 1.5rem;
+    font-size: 1.7rem;
+    margin: 0 1.2rem;
+  }
+  img {
+    max-width: 2rem;
+    margin: 0 1rem;
   }
 }
 a {
@@ -98,6 +115,6 @@ a {
 .link-text {
   display: none;
   margin-left: 0.5rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 </style>
