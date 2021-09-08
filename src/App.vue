@@ -32,6 +32,7 @@ export default {
 }
 body {
   margin: 0 auto;
+  background-color: var(--bright);
 }
 #app {
   -webkit-font-smoothing: antialiased;
