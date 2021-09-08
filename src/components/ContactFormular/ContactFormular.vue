@@ -50,7 +50,7 @@ export default {
   min-height: 6rem;
 }
 .contact-button {
-  margin: 1rem 0;
+  margin: 1rem 0.1rem;
   padding: 0.5rem;
   background-color: var(--bright);
   color: var(--dark);
