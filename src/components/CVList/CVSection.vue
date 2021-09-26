@@ -23,6 +23,4 @@ export default {
   padding-top: 1rem;
   margin-bottom: 0;
 }
-.cv__section {
-}
 </style>
