@@ -71,7 +71,12 @@ ul > li {
   margin-right: 1rem;
 }
 
+h3 {
+  margin: 1rem 0;
+}
+
 li > p {
+  margin: 0.7rem 0;
   letter-spacing: 0.1rem;
   &:first-child {
     width: 38.198vw;
