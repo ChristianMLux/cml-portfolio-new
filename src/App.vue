@@ -26,6 +26,8 @@ export default {
   --grey: #c8cdd0;
   --dark-grey: #415058;
   --dark: #1d272a;
+  --fontsize: 12px;
+  --fontsize-media-350: 10px;
   font-size: 12px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
@@ -70,6 +72,35 @@ main {
 
     &.router-link-exact-active {
       color: #42b983;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  :root {
+    font-size: var(--fontsize-media-350);
+  }
+  h1 {
+    font-size: 42.358px;
+    letter-spacing: 0.2rem;
+  }
+  h2 {
+    font-size: 26.179px;
+    letter-spacing: 0.2rem;
+  }
+  h3 {
+    font-size: 16.18px;
+  }
+  input {
+    font-size: var(--fontsize-media-350);
+    &::placeholder {
+      font-size: var(--fontsize-media-350);
+    }
+  }
+  textarea {
+    font-size: var(--fontsize-media-350);
+    &::placeholder {
+      font-size: var(--fontsize-media-350);
     }
   }
 }
