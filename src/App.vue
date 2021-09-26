@@ -26,7 +26,7 @@ export default {
   --grey: #c8cdd0;
   --dark-grey: #415058;
   --dark: #1d272a;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
@@ -42,15 +42,15 @@ body {
   background: var(--bright);
 }
 h1 {
-  font-size: 76.24px;
+  font-size: 50.83px;
   letter-spacing: 0.2rem;
 }
 h2 {
-  font-size: 47.1px;
+  font-size: 31.42px;
   letter-spacing: 0.2rem;
 }
 h3 {
-  font-size: 29.12px;
+  font-size: 19.42px;
 }
 #app {
   -webkit-font-smoothing: antialiased;
