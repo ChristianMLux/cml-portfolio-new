@@ -35,6 +35,7 @@ export default {
 }
 body {
   margin: 0 auto;
+  background: var(--bright);
 }
 h1 {
   font-size: 76.24px;
