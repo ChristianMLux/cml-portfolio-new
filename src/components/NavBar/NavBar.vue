@@ -20,6 +20,12 @@
         </router-link>
       </li>
       <li class="nav-item">
+        <router-link :to="cvRoute" class="nav-link">
+          <component :is="routeIconCV"></component>
+          <span class="link-text">CV</span>
+        </router-link>
+      </li>
+      <li class="nav-item">
         <router-link :to="contactRoute" class="nav-link">
           <component :is="routeIconContact"></component>
           <span class="link-text">Contact</span>
@@ -50,6 +56,8 @@ export default {
       profileRoute: "/profile",
       routeIconStory: "md-book-icon",
       storyRoute: "/story",
+      cvRoute: "/cv",
+      routeIconCV: "md-document-icon",
       routeIconContact: "md-mail-icon",
       contactRoute: "/contact",
     };
