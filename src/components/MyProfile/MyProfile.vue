@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Me in a nutshell</h2>
+    <h2>Profil - Eine Zusammenfassung</h2>
     <h3>Zu meiner Person</h3>
     <ul class="pers-info-list">
       <li>
@@ -21,31 +21,31 @@
       <li>
         <p>Hardskills:</p>
         <p>
-          HTML, CSS, JavaScript, Java, SQL, jQuery, PHP, Python, vb.NET,
-          Marketing, BWL
+          HTML - CSS - JavaScript - Java - SQL - jQuery - PHP - Python - vb.NET
+          - Marketing - BWL
         </p>
       </li>
       <li>
         <p>Toolings:</p>
         <p>
-          VSCode, Git(-Hub), Vue, Cypress, Firebase, NPM, Xampp, NetBeans, Adobe
-          Suite, jMonkey, NodeJS, Eclipse, ERP
+          VSCode - Git(-Hub) - Vue - Cypress - Firebase - NPM - Xampp - NetBeans
+          - Adobe Suite - jMonkey - NodeJS - Eclipse - ERP
         </p>
       </li>
       <li>
         <p>Prinzipien:</p>
         <p>
-          Versionierung, GitFlow, CleanCode, REST, OOP, wissenschaftliches
-          Arbeiten, ER-Diagramme, Designregeln, Readability, Don't repeat
-          yourself, Marktmechanismen, Nachhaltigkeit, Marketingmix
+          Versionierung - GitFlow - CleanCode - REST - OOP - wissenschaftliches
+          Arbeiten - ER-Diagramme - Designregeln - Readability - Don't repeat
+          yourself - Marktmechanismen - Nachhaltigkeit - Marketingmix
         </p>
       </li>
       <li>
         <p>Softskills:</p>
         <p>
-          SCRUM, Teamwork, Präsentationen, sicheres Auftreten, Geduld,
-          realistische Erwartungshaltung, Zeitmanagement, flexibel,
-          eigenständig, adaptiv, zielstrebig
+          SCRUM - Teamwork - Präsentationen - sicheres Auftreten - Geduld,
+          realistische Erwartungshaltung - Zeitmanagement - flexibel,
+          eigenständig - adaptiv - zielstrebig
         </p>
       </li>
     </ul>
@@ -57,3 +57,38 @@ export default {
   name: "MyProfile",
 };
 </script>
+
+<style lang="scss" scoped>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul > li {
+  display: flex;
+  flex-flow: row;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+
+li > p {
+  letter-spacing: 0.1rem;
+  &:first-child {
+    width: 38.198vw;
+  }
+  &:last-child {
+    width: 61.804vw;
+    padding-right: 2rem;
+  }
+}
+
+.skill-info-list > li:nth-child(1n + 1) {
+  border-radius: 0.4rem;
+  color: var(--dark);
+  background-color: var(--bright);
+}
+.skill-info-list > li:nth-child(2n + 1) {
+  color: var(--dark);
+  background-color: snow;
+}
+</style>
