@@ -30,8 +30,24 @@ export default {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
+*::selection {
+  background-color: var(--primary-color-light);
+}
 body {
   margin: 0 auto;
+  background: var(--bright);
+}
+h1 {
+  font-size: 76.24px;
+  letter-spacing: 0.2rem;
+}
+h2 {
+  font-size: 47.1px;
+  letter-spacing: 0.2rem;
+}
+h3 {
+  font-size: 29.12px;
+  letter-spacing: 0.2rem;
 }
 #app {
   -webkit-font-smoothing: antialiased;
