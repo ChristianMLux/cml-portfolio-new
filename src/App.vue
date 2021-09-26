@@ -47,7 +47,6 @@ h2 {
 }
 h3 {
   font-size: 29.12px;
-  letter-spacing: 0.2rem;
 }
 #app {
   -webkit-font-smoothing: antialiased;
