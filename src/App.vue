@@ -30,6 +30,10 @@ export default {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 *::selection {
   background-color: var(--primary-color-light);
 }
