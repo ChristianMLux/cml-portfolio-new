@@ -55,6 +55,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.cf__contact-section {
+  max-width: 61.804vw;
+}
 .cf__contact-formular {
   display: flex;
   flex-flow: column;
@@ -105,14 +108,17 @@ export default {
   height: 18.7vh;
   background: var(--primary-color-light);
 }
-
+.cf__social-section {
+  max-width: 61.804vw;
+}
 .social__wrapper {
+  max-width: 38.198vw;
   padding: 2rem 0;
   display: flex;
   flex-flow: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   img {
-    width: 14.591vw;
+    width: 9.017vw;
   }
 }
 

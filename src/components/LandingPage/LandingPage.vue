@@ -49,6 +49,7 @@ h2 {
   }
 }
 .lp__mainheading-wrapper {
+  max-width: 100ch;
   display: flex;
   justify-content: space-between;
   h2 {
@@ -56,6 +57,7 @@ h2 {
   }
 }
 .lp__content-wrapper {
+  max-width: 61.804vw;
   margin: 1rem 0;
   padding: 1rem 0;
   h3 {

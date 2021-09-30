@@ -62,6 +62,7 @@ h3 {
 }
 main {
   padding-left: 5rem;
+  max-width: 100ch;
 }
 #nav {
   padding: 30px;
