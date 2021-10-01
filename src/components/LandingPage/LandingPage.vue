@@ -8,7 +8,8 @@
       <h3>Wer bin ich?</h3>
       <p>
         30 jähriger Geek im Autismusspektrum mit großem Interesse an
-        Webentwicklung, Design und Gaming.
+        Webentwicklung, Design und Gaming und vielfältigen Erfahrungen in diesem
+        Bereich.
       </p>
     </div>
     <div class="lp__content-wrapper">
@@ -16,6 +17,13 @@
       <p>
         Frontend-Entwicklung, Datenbanken, Objekt-Orientierte-Programmierung,
         Projektmanagement
+      </p>
+    </div>
+    <div class="lp__content-wrapper">
+      <h3>Was bin ich?</h3>
+      <p>
+        Problemlöser - gerne im Hyperfokus - vor Motivation platzend -
+        Detailverliebt
       </p>
     </div>
     <div class="lp__content-wrapper">
