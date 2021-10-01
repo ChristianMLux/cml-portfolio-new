@@ -44,23 +44,24 @@
       Von Anfang 2008 bis Ende 2009 war ich zum ersten mal in einer IT Firma
       angestellt. Hier durfte ich meine Fähigkeiten ausbauen und eine Seite für
       einen wohltätigen Verein gestalten. Und auch an der Firmenseite durfte ich
-      mich versuchen.
+      mich versuchen. Gleichzeitig fing ich an das CMS Joomla zu benutzen, und
+      auch dafür entsprechende Layouts zu gestalten.
     </p>
     <section class="projects__slider">
       <div class="box box-6">
         <h3 class="description">Safe-Tec</h3>
       </div>
       <div class="box box-7">
-        <h3 class="description">StarTrek Clan</h3>
+        <h3 class="description">Imaging 4 Africa</h3>
       </div>
       <div class="box box-8">
-        <h3 class="description">Counter-Strike Server</h3>
+        <h3 class="description">Joomla Template</h3>
       </div>
-      <div class="box box-4">
-        <h3 class="description">Imoritah light</h3>
+      <div class="box box-9">
+        <h3 class="description">Joomla Template</h3>
       </div>
-      <div class="box box-5">
-        <h3 class="description">Imoritah dark</h3>
+      <div class="box box-10">
+        <h3 class="description">Erstes Portfolio</h3>
       </div>
     </section>
   </section>
@@ -73,32 +74,34 @@ export default {
 
 <style lang="scss" scoped>
 .story__text {
-  max-width: 70vw;
-  padding: 1rem 0 0 1rem;
-  margin-right: 12rem;
+  max-width: 100%;
+  padding: 1.5rem;
+  margin: 0 auto;
   line-height: 1.5rem;
   text-align: justify;
   font-size: 1.1em;
 }
 .img-wrapper {
-  max-width: 77%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   img {
-    max-width: 100%;
+    max-width: 61.804%;
   }
 }
 .projects__slider {
+  border-radius: 0.5rem;
   display: flex;
   flex-flow: row;
   margin: 1.4rem 0.9rem;
   transition: 1s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .box {
   border: 1px solid var(--primary-color);
-  height: 16.5rem;
+  height: 16.51rem;
   width: 4rem;
   transition: 0.5s ease-in-out;
   background: var(--dark);
@@ -110,7 +113,7 @@ export default {
   background: snow;
   .description {
     margin: 0;
-    opacity: 0.8;
+    opacity: 0.75;
     text-align: center;
     padding: 0.5rem;
     border-radius: 0.4rem;
@@ -119,6 +122,8 @@ export default {
     transform: rotate(0deg);
     margin-top: 1em;
     margin-left: 1em;
+    box-shadow: rgba(150, 150, 150, 0.12) 0px 0.5px 1.5px,
+      rgba(0, 0, 0, 0.24) 0px 0.5px 1px;
   }
 }
 .box-1 {
@@ -155,7 +160,7 @@ export default {
   border-bottom-right-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   &:hover {
-    background-image: url("@/assets/showroom/slides/slide07.jpg");
+    background-image: url("@/assets/slide07.jpg");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -165,6 +170,36 @@ export default {
   border-top-left-radius: 0.5rem;
   &:hover {
     background-image: url("@/assets/showroom/slides/slide05.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.box-7 {
+  &:hover {
+    background-image: url("@/assets/showroom/slides/slide08.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.box-8 {
+  &:hover {
+    background-image: url("@/assets/showroom/slides/slide09.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.box-9 {
+  &:hover {
+    background-image: url("@/assets/showroom/slides/slide11.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.box-10 {
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  &:hover {
+    background-image: url("@/assets/showroom/slides/slide10.jpg");
     background-repeat: no-repeat;
     background-size: contain;
   }
