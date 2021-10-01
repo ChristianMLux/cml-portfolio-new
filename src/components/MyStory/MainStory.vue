@@ -1,9 +1,7 @@
 <template>
   <section class="ms__story-section">
-    <h2 class="story__heading">
-      Meine Geschichte...(tl:dr=<router-link to="/profile">Profile</router-link
-      >)
-    </h2>
+    <h2 class="story__heading">Meine Geschichte...</h2>
+    <h3>(tl:dr=<router-link to="/profile">Profile</router-link>)</h3>
     <p class="story__text">
       Meine Geschichte mit Layouts und Code startete anfang 2003, als ich
       angefangen habe durch verschiedene Foren zu stöbern. In diesen Foren war
@@ -79,7 +77,7 @@ export default {
   margin: 0 auto;
   line-height: 1.5rem;
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1.15em;
 }
 .img-wrapper {
   max-width: 100%;
@@ -91,6 +89,7 @@ export default {
   }
 }
 .projects__slider {
+  background: var(--grey);
   z-index: -1;
   border-radius: 0.5rem;
   display: flex;
