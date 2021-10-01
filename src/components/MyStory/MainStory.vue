@@ -58,7 +58,7 @@ export default {
   font-size: 1.1em;
 }
 .img-wrapper {
-  max-width: 70vw;
+  max-width: 77%;
   display: flex;
   justify-content: center;
   align-items: center;
