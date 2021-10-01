@@ -40,6 +40,29 @@
         <h3 class="description">Imoritah dark</h3>
       </div>
     </section>
+    <p class="story__text">
+      Von Anfang 2008 bis Ende 2009 war ich zum ersten mal in einer IT Firma
+      angestellt. Hier durfte ich meine Fähigkeiten ausbauen und eine Seite für
+      einen wohltätigen Verein gestalten. Und auch an der Firmenseite durfte ich
+      mich versuchen.
+    </p>
+    <section class="projects__slider">
+      <div class="box box-6">
+        <h3 class="description">Safe-Tec</h3>
+      </div>
+      <div class="box box-7">
+        <h3 class="description">StarTrek Clan</h3>
+      </div>
+      <div class="box box-8">
+        <h3 class="description">Counter-Strike Server</h3>
+      </div>
+      <div class="box box-4">
+        <h3 class="description">Imoritah light</h3>
+      </div>
+      <div class="box box-5">
+        <h3 class="description">Imoritah dark</h3>
+      </div>
+    </section>
   </section>
 </template>
 <script>
@@ -69,7 +92,7 @@ export default {
 .projects__slider {
   display: flex;
   flex-flow: row;
-  margin: 1rem 0.9rem;
+  margin: 1.4rem 0.9rem;
   transition: 1s ease-in-out;
 }
 
@@ -133,6 +156,15 @@ export default {
   border-top-right-radius: 0.5rem;
   &:hover {
     background-image: url("@/assets/showroom/slides/slide07.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.box-6 {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  &:hover {
+    background-image: url("@/assets/showroom/slides/slide05.jpg");
     background-repeat: no-repeat;
     background-size: contain;
   }
