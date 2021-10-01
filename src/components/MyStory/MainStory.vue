@@ -91,6 +91,7 @@ export default {
   }
 }
 .projects__slider {
+  z-index: -1;
   border-radius: 0.5rem;
   display: flex;
   flex-flow: row;
