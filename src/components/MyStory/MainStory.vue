@@ -110,14 +110,14 @@ export default {
 }
 .box:hover {
   flex-grow: 1;
-  background: snow;
+  background: var(--grey);
   .description {
     margin: 0;
     opacity: 0.75;
     text-align: center;
     padding: 0.5rem;
     border-radius: 0.4rem;
-    color: white;
+    color: var(--bright);
     background: var(--dark);
     transform: rotate(0deg);
     margin-top: 1em;
